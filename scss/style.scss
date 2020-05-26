@@ -1,0 +1,96 @@
+
+@media(max-width:590){
+    .all{
+        margin: 5%;
+        padding: 1%;
+    }
+    
+}
+$font-stack:    Bradley Hand, cursive;
+@mixin title($colorEx) {
+    color: $colorEx;
+    position: relative;
+    font-family: fantasy;
+}
+header{
+    display: flex;
+    .menu{
+        position: relative;
+        li{
+            a {
+                color: black;
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+        .italic{
+            color: rgb(154, 170, 12);
+            
+        }
+    }
+}
+@import'background';
+body{
+    font: 100% $font-stack;
+    .color_bold{
+        @include title(#fff);
+        background-color: blue;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        font-weight: bold;
+        background-attachment: scroll;
+    }
+    .all{
+        flex: 1 0 auto;
+        background-color: rgba(121, 99, 124, 0.925);
+        margin: 10%;
+        padding: 2%;
+    }
+    .picture{
+        position: relative;
+        max-height: 50%;
+        max-width: 100%;
+    }
+    main{
+        .underline_1{
+            @include title(#000);
+            left: 0;
+            text-align: center;
+            outline-style: double;
+            background-color: rgba(87, 4, 122, 0.685);
+        }
+        .planet{
+            text-decoration:underline;
+            text-indent: 40px;
+            text-align: center;
+            font-weight: bold;
+            background-color: rgb(56, 127, 197);
+            color: rgb(238, 226, 211);
+            }
+        }
+        .hole{
+            color: rgb(158, 201, 59);
+        }
+    }
+
+
+.warning{
+    flex: 1 0 auto;
+    position: relative;
+    color: rgb(214, 142, 142);
+    background-color: rgb(226, 23, 23);
+    
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#pic1{
+    position: relative;
+    top: 5%;
+    left: 50%;
+}

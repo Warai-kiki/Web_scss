@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,wBAAwB;EACpC,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAC,SAAS;EAC3B,qBAAqB,EAAC,KAAK;CAC9B",
+    "sources": [
+        "background.scss"
+    ],
+    "names": [],
+    "file": "background.css"
+}

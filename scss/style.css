@@ -1,0 +1,112 @@
+@media (max-width: 590) {
+  .all {
+    margin: 5%;
+    padding: 1%;
+  }
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .menu {
+  position: relative;
+}
+
+header .menu li a {
+  color: black;
+}
+
+header .menu li a:hover {
+  color: #fff;
+}
+
+header .menu .italic {
+  color: #9aaa0c;
+}
+
+body {
+  background: url(../img/kosmos-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  font: 100% Bradley Hand, cursive;
+}
+
+body .color_bold {
+  color: #fff;
+  position: relative;
+  font-family: fantasy;
+  background-color: blue;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  font-weight: bold;
+  background-attachment: scroll;
+}
+
+body .all {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  background-color: rgba(121, 99, 124, 0.925);
+  margin: 10%;
+  padding: 2%;
+}
+
+body .picture {
+  position: relative;
+  max-height: 50%;
+  max-width: 100%;
+}
+
+body main .underline_1 {
+  color: #000;
+  position: relative;
+  font-family: fantasy;
+  left: 0;
+  text-align: center;
+  outline-style: double;
+  background-color: rgba(87, 4, 122, 0.685);
+}
+
+body main .planet {
+  text-decoration: underline;
+  text-indent: 40px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #387fc5;
+  color: #eee2d3;
+}
+
+body .hole {
+  color: #9ec93b;
+}
+
+.warning {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  position: relative;
+  color: #d68e8e;
+  background-color: #e21717;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#pic1 {
+  position: relative;
+  top: 5%;
+  left: 50%;
+}
+/*# sourceMappingURL=style.css.map */
